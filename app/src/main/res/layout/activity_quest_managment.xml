@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.ruppin.roper.quest_page.QuestManagement">
+
+    <Button
+        android:id="@+id/continueQuestId"
+        android:layout_width="344dp"
+        android:layout_height="44dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginRight="34dp"
+        android:layout_marginBottom="487dp"
+        android:onClick="continueQuestClick"
+        android:text="Continue quest"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="164dp" />
+
+    <Button
+        android:id="@+id/loginPageId"
+        android:layout_width="344dp"
+        android:layout_height="44dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginRight="38dp"
+        android:layout_marginBottom="271dp"
+        android:onClick="backToLoginPageClick"
+        android:text="Back to login page"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="233dp" />
+
+    <Button
+        android:id="@+id/TouristMapId"
+        android:layout_width="344dp"
+        android:layout_height="44dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginRight="34dp"
+        android:layout_marginBottom="343dp"
+        android:text="Back to tourist map"
+        android:onClick="backToTouristPageClick"
+        tools:text="Back to tourist map" />
+
+    <Button
+        android:id="@+id/newQuestId"
+        android:layout_width="344dp"
+        android:layout_height="44dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginRight="34dp"
+        android:layout_marginBottom="415dp"
+        android:text="Start a new quest"
+        android:onClick="newQuestClick"
+        tools:text="Start a new quest" />
+
+
+</RelativeLayout>

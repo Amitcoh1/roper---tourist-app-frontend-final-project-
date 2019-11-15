@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="IP">82.116.211.131</string>
+    <string name="PORT">8080</string>
+</resources>

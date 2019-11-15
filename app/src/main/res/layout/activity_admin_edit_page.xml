@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="97dp"
+        android:layout_height="27dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="47dp"
+        android:text="Default radius"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="42dp" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="113dp"
+        android:layout_height="57dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="82dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_toStartOf="@+id/GglApiKId"
+        android:layout_toLeftOf="@+id/GglApiKId"
+        android:text="Google API Key"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="90dp" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView27"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginRight="55dp"
+        android:layout_toStartOf="@+id/DfltTypesId"
+        android:layout_toLeftOf="@+id/DfltTypesId"
+        android:text="Default types"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="127dp" />
+
+    <EditText
+        android:id="@+id/DfltRdsId"
+        android:layout_width="173dp"
+        android:layout_height="37dp"
+        android:layout_below="@+id/textView27"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-46dp"
+        android:layout_marginEnd="57dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Default radius"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="192dp"
+        tools:layout_editor_absoluteY="32dp" />
+
+    <EditText
+        android:id="@+id/GglApiKId"
+        android:layout_width="173dp"
+        android:layout_height="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="56dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Google API Key"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="192dp"
+        tools:layout_editor_absoluteY="81dp" />
+
+    <org.ruppin.roper.tourist_page.Utils.MultiSelectSpinner
+        android:id="@+id/DfltTypesId"
+        android:layout_width="160dp"
+        android:layout_height="21dp"
+        android:layout_alignStart="@+id/GglApiKId"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="124dp"
+        tools:layout_editor_absoluteX="192dp"
+        tools:layout_editor_absoluteY="125dp" />
+
+    <Button
+        android:id="@+id/saveCngsAdminBtnId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="145dp"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="182dp"
+        android:text="SAVE" />
+</RelativeLayout>

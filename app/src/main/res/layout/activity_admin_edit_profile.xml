@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="25dp"
+        android:text="User name"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="68dp" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="78dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginRight="116dp"
+        android:layout_toStartOf="@+id/AdminPASSId"
+        android:layout_toLeftOf="@+id/AdminPASSId"
+        android:text="Password"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="117dp" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="123dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginRight="144dp"
+        android:layout_toStartOf="@+id/adminEmailId"
+        android:layout_toLeftOf="@+id/adminEmailId"
+        android:text="Email"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="166dp" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="166dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginRight="102dp"
+        android:layout_toStartOf="@+id/adminDOBId"
+        android:layout_toLeftOf="@+id/adminDOBId"
+        android:text="Date of birth"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="213dp" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="209dp"
+        android:layout_marginEnd="109dp"
+        android:layout_marginRight="109dp"
+        android:layout_toStartOf="@+id/adminFNId"
+        android:layout_toLeftOf="@+id/adminFNId"
+        android:text="First name"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="254dp" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="111dp"
+        android:layout_marginRight="111dp"
+        android:layout_toStartOf="@+id/adminLNId"
+        android:layout_toLeftOf="@+id/adminLNId"
+        android:text="Last name"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="298dp" />
+
+    <EditText
+        android:id="@+id/AdminUNId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView21"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="109dp"
+        android:layout_marginLeft="109dp"
+        android:layout_marginTop="-17dp"
+        android:layout_marginEnd="21dp"
+        android:layout_toEndOf="@+id/textView21"
+        android:layout_toRightOf="@+id/textView21"
+        android:ems="10"
+        android:hint="User name"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="41dp" />
+
+    <EditText
+        android:id="@+id/AdminPASSId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="62dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="98dp" />
+
+    <EditText
+        android:id="@+id/adminEmailId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="106dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="143dp" />
+
+    <EditText
+        android:id="@+id/adminDOBId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="151dp"
+        android:ems="10"
+        android:hint="Date of birth"
+        android:inputType="date"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="188dp" />
+
+    <EditText
+        android:id="@+id/adminFNId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="194dp"
+        android:ems="10"
+        android:hint="First name"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="233dp" />
+
+    <EditText
+        android:id="@+id/adminLNId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="238dp"
+        android:ems="10"
+        android:hint="Last name"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="278dp" />
+
+    <Button
+        android:id="@+id/SaveCngsAdminPflId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="149dp"
+        android:layout_marginLeft="149dp"
+        android:text="SAVE"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="374dp" />
+</RelativeLayout>

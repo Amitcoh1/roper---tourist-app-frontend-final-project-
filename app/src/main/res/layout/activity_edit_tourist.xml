@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<TableLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TableRow>
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="20dp"
+            android:text="First name"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView10"
+            app:layout_constraintStart_toStartOf="@+id/textView10" />
+            <EditText
+                android:id="@+id/TourFirstNameId"
+                android:layout_width="126dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="6dp"
+                android:ems="10"
+                android:hint="first name"
+                android:inputType="textPersonName"
+                app:layout_constraintBottom_toTopOf="@+id/TourLoginNameId"
+                app:layout_constraintEnd_toEndOf="@+id/TourLoginNameId" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="193dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="19dp"
+            android:text="Last name"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView11"
+            app:layout_constraintStart_toStartOf="@+id/textView11" />
+        <EditText
+            android:id="@+id/TourLastNameId"
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="7dp"
+            android:ems="10"
+            android:hint="last name"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toTopOf="@+id/TourPasswordId"
+            app:layout_constraintEnd_toEndOf="@+id/TourPasswordId" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="193dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="20dp"
+            android:text="Email"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView20"
+            app:layout_constraintStart_toStartOf="@+id/textView20" />
+        <EditText
+            android:id="@+id/TourEmailId"
+            android:layout_width="194dp"
+            android:layout_height="36dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="7dp"
+            android:ems="10"
+            android:hint="email"
+            android:inputType="textEmailAddress"
+            app:layout_constraintBottom_toTopOf="@+id/TourPredId"
+            app:layout_constraintEnd_toEndOf="@+id/TourPredId" />
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="20dp"
+            android:text="Login name"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView7"
+            app:layout_constraintStart_toStartOf="@+id/textView7" />
+        <EditText
+            android:id="@+id/TourLoginNameId"
+            android:layout_width="127dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="7dp"
+            android:ems="10"
+            android:hint="login name"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toTopOf="@+id/TourLastNameId"
+            app:layout_constraintEnd_toEndOf="@+id/TourLastNameId" />
+    </TableRow>
+    <TableRow>
+        <TextView
+
+            android:id="@+id/textView11"
+            android:layout_width="193dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="20dp"
+            android:text="Password"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView9"
+            app:layout_constraintStart_toStartOf="@+id/textView9" />
+        <EditText
+            android:id="@+id/TourPasswordId"
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="7dp"
+            android:ems="10"
+            android:hint="password"
+            android:inputType="textPassword"
+            app:layout_constraintBottom_toTopOf="@+id/Tour_DOBId"
+            app:layout_constraintEnd_toEndOf="@+id/Tour_DOBId" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="193dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="20dp"
+            android:text="Date of birth"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView19"
+            app:layout_constraintStart_toStartOf="@+id/textView19" />
+        <EditText
+            android:id="@+id/Tour_DOBId"
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="6dp"
+            android:ems="10"
+            android:hint="date of birth"
+            android:inputType="date"
+            app:layout_constraintBottom_toTopOf="@+id/TourAgeId"
+            app:layout_constraintEnd_toEndOf="@+id/TourAgeId" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+
+            android:layout_marginBottom="20dp"
+            android:text="Age"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView23"
+            app:layout_constraintStart_toStartOf="@+id/textView23" />
+        <EditText
+            android:id="@+id/TourAgeId"
+            android:layout_width="127dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="7dp"
+            android:ems="10"
+            android:hint="age"
+            android:inputType="number"
+            app:layout_constraintBottom_toTopOf="@+id/TourRadiousTHId"
+            app:layout_constraintEnd_toEndOf="@+id/TourRadiousTHId" />
+    </TableRow>
+
+<TableRow>
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="193dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:text="Gender"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView8"
+            app:layout_constraintStart_toStartOf="@+id/textView8" />
+
+        <Spinner
+                android:id="@+id/TourGenderTypeId"
+                android:layout_width="194dp"
+                android:layout_height="24dp"
+                android:layout_below="@+id/TourPasswordId"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                app:layout_constraintBottom_toTopOf="@+id/TourEmailId"
+                app:layout_constraintEnd_toEndOf="@+id/TourEmailId" />
+
+</TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="20dp"
+            android:text="Radious TH"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView22"
+            app:layout_constraintStart_toStartOf="@+id/textView22" />
+        <EditText
+            android:id="@+id/TourRadiousTHId"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="7dp"
+            android:ems="10"
+            android:hint="Radious"
+            android:inputType="number"
+            app:layout_constraintBottom_toTopOf="@+id/TourSpknId"
+            app:layout_constraintEnd_toEndOf="@+id/TourSpknId" />
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="126dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="8dp"
+            android:text="Languages"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView24"
+            app:layout_constraintStart_toStartOf="@+id/textView24" />
+
+        <Spinner
+            android:id="@+id/TourSpknId"
+            android:layout_width="127dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/TourPasswordId"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="7dp"
+            app:layout_constraintBottom_toTopOf="@+id/TourVicType"
+            app:layout_constraintEnd_toEndOf="@+id/TourVicType" />
+    </TableRow>
+
+<TableRow>
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="126dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="20dp"
+                android:text="Preferences"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toTopOf="@+id/textView6"
+                app:layout_constraintStart_toStartOf="@+id/textView6" />
+    <org.ruppin.roper.tourist_page.Utils.MultiSelectSpinner
+        android:id="@+id/TourPredId"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/TourRadiousTHId"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="7dp"
+        app:layout_constraintBottom_toTopOf="@+id/TourFirstNameId"
+        app:layout_constraintEnd_toEndOf="@+id/TourFirstNameId" />
+</TableRow>
+    <TableRow>
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:baselineAligned="false"
+            android:text="Vication type"
+            android:textSize="18sp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/textView8"
+            tools:layout_editor_absoluteX="8dp" />
+
+
+    <Spinner
+        android:id="@+id/TourVicType"
+        android:layout_width="194dp"
+        android:layout_height="19dp"
+        android:layout_below="@+id/TourPasswordId"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        tools:layout_editor_absoluteX="209dp"
+        tools:layout_editor_absoluteY="514dp" />
+    </TableRow>
+
+    <TableRow android:layout_height="88dp">
+
+        <Button
+            android:id="@+id/TourSaveCngsBtn"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+
+            android:gravity="center_horizontal"
+            android:text="SAVE"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.619"
+            app:layout_constraintStart_toStartOf="parent" />
+    </TableRow>
+</TableLayout>
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="-13dp" />
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

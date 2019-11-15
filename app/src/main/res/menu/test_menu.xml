@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_check"
+        android:title="action_check1"
+        android:orderInCategory="200"
+        app:showAsAction="never"
+        android:visible="true"
+        android:checkable="true"/>
+    <item
+        android:id="@+id/action_check2"
+        android:title="action_check2"
+        android:orderInCategory="200"
+        app:showAsAction="never"
+        android:visible="true"
+        android:checkable="true"/>
+
+    <item
+        android:id="@+id/action_check3"
+        android:title="action_check3"
+        android:orderInCategory="200"
+        app:showAsAction="never"
+        android:visible="true"
+        android:checkable="true"/>
+
+</menu>

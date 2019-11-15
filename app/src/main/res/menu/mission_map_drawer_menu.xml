@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Map options">
+        <menu>
+            <group>
+                <item
+                android:id="@+id/nbRefresh"
+                android:icon="@drawable/ic_refresh"
+                android:title="Refresh map" />
+                <item
+                    android:id="@+id/nbFinish"
+                    android:icon="@drawable/ic_star_half_black_24dp"
+                    android:title="Finish mission" />
+                <item
+                    android:id="@+id/nbQuest"
+                    android:icon="@drawable/ic_business_center_black_24dp"
+                    android:title="Quest management" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="App options">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/nbTourist"
+                    android:icon="@drawable/ic_directions_black_24dp"
+                    android:title="Tourist map" />
+                <item
+                    android:id="@+id/nbLogout"
+                    android:icon="@drawable/ic_exit_black_24dp"
+                    android:title="Logout" />
+            </group>
+        </menu>
+    </item>
+
+
+</menu>

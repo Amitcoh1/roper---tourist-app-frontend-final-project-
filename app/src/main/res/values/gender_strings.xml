@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Select_your_gender">
+        What is your gender
+    </string>
+    <string-array name="Gender">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Hidden</item>
+    </string-array>
+</resources>

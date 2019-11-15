@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.ruppin.roper">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".quest_page.ShowFinishQuest"
+            android:label="@string/title_activity_show_finish_quest"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".quest_page.FinishQuestPage"
+            android:label="@string/title_activity_finish_quest_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".quest_page.FinishMission"
+            android:label="@string/title_activity_finish_mission"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".quest_page.NewQuest"
+            android:label="@string/title_activity_new_quest"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name=".quest_page.MissionMapPage"
+            android:label="@string/title_activity_quest"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".quest_page.QuestManagement" />
+        <activity
+            android:name=".tourist_page.MapsActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".bussines_owner_page.businessOwnerMainPage" />
+        <activity android:name=".users.UserMainPage" />
+        <activity android:name=".bussines_owner_page.AddNewBO" />
+        <activity android:name=".general.RecoverPassword" />
+        <activity android:name=".tourist_page.AddNewTourist" />
+        <activity android:name=".users.SelectUserType" />
+        <activity android:name=".bussines_owner_page.show_bussineses_page.ShowBusinessOwnesBusinesses" /> <!-- <activity android:name="org.ruppin.roper.admin_page.AddNewAdmin" /> -->
+        <activity android:name=".admin_page.AdminEditDefaultData" />
+        <activity android:name=".bussines_owner_page.editBOpage.EditBusinessOwnerpage" />
+        <activity android:name=".tourist_page.EditTourist" />
+        <activity android:name=".bussines_owner_page.edit_bussineses_page.EditBusinessOwnesBusinesses" />
+        <activity android:name=".quest_page.EditQuest"/>
+        <activity android:name=".bussines_owner_page.add_business_page.AddBusinessToBO" />
+        <activity android:name=".quest_page.ShowAllQuests"/>
+        <activity android:name=".quest_page.RemoveQuest"/>
+        <activity android:name=".quest_page.AddMission"/>
+        <activity android:name=".quest_page.ShowAllQuests2"/>
+        <activity android:name=".quest_page.ShowAllQuests3"/>
+        <activity android:name=".quest_page.ShowAllMissions"/>
+        <activity android:name=".quest_page.StartNewQuest"/>
+        <activity android:name=".quest_page.RemoveMission"/>
+        <activity android:name=".quest_page.ShowAllMissionsToRemove"/>
+        <activity android:name=".quest_page.ShowAllQuestsToMissionRemove"/>
+        <activity android:name=".quest_page.EditMission"/>
+        <activity android:name=".bussines_owner_page.delete_business.DeleteBusiness" />
+        <activity android:name=".admin_page.AdminMainPage" />
+        <activity android:name=".admin_page.AdminEditProfile" />
+        <activity android:name=".quest_page.AddBussinessToMission"/>
+        <activity android:name=".quest_page.ShowAllQstsToAddBsns"/>
+        <activity android:name=".quest_page.ShowAllMissionsToAddBsns"/>
+        <activity android:name=".quest_page.ShowAllQuestsToRemoveBsns"/>
+        <activity android:name=".quest_page.ShowAllMissionsToRemoveBsns"/>
+        <activity android:name=".quest_page.FinishQuest"/>
+        <activity android:name=".login_page.loginPage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
