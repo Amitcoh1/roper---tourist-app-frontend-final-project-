@@ -1,1 +1,1 @@
-# roper_tourist_app_frontend
+# roper - tourist app :: frontend (final project)
